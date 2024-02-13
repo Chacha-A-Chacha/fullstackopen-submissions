@@ -1,7 +1,9 @@
 const Header = ()  => {
-    return{
-        
-    }
+    return (
+        <h1>
+            { course }
+        </h1>
+    )
 }
 
 
@@ -16,9 +18,7 @@ const App = () => {
 
     return(
         <div>
-            <h1>
-                {course}
-            </h1>
+            <Header />
             <p>
                 {part1} {exercises1}
             </p>
